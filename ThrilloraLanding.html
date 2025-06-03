@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thrillora - Adventure Unboxed</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      margin: 0; padding: 0;
+      display: flex; justify-content: center; align-items: center;
+      min-height: 100vh;
+      color: #222;
+    }
+    .container {
+      background: white;
+      max-width: 480px;
+      width: 90%;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #0a74da;
+    }
+    p.subtitle {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #444;
+    }
+    ul.features {
+      text-align: left;
+      margin: 20px 0 30px 0;
+      padding: 0 20px;
+      list-style-type: none;
+    }
+    ul.features li {
+      margin-bottom: 15px;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+    ul.features li::before {
+      content: "🌍";
+      margin-right: 8px;
+    }
+    ul.features li:nth-child(2)::before { content: "🎁"; }
+    ul.features li:nth-child(3)::before { content: "🤝"; }
+    ul.features li:nth-child(4)::before { content: "🎥"; }
+    form {
+      margin-top: 20px;
+    }
+    input[type="email"] {
+      width: 70%;
+      padding: 12px 15px;
+      font-size: 1rem;
+      border: 2px solid #0a74da;
+      border-radius: 6px 0 0 6px;
+      outline: none;
+    }
+    button {
+      padding: 13px 20px;
+      font-size: 1rem;
+      background-color: #0a74da;
+      color: white;
+      border: none;
+      border-radius: 0 6px 6px 0;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #065ab8;
+    }
+    .footer-text {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .social-icons {
+      margin-top: 20px;
+    }
+    .social-icons img {
+      width: 36px;
+      margin: 0 10px;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Thrillora: Adventure Unboxed</h1>
+    <p class="subtitle">Your Global Gateway to Unforgettable Experiences</p>
+    <p>Discover, Book & Experience the World’s Best Adventure Activities — From Skydiving in New Zealand to Desert Safaris in Morocco.</p>
+    <ul class="features">
+      <li>Curated Global Adventures — Explore thrilling experiences handpicked from top destinations worldwide.</li>
+      <li>Mystery Travel — Book surprise trips and unlock hidden adventures designed just for you!</li>
+      <li>Trusted Providers — We carefully vet every partner to ensure safety, quality, and unforgettable memories.</li>
+      <li>Creators & Community — Watch, share, and create inspiring adventure content. Join a community that lives for thrills!</li>
+    </ul>
+    <form>
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Join Waitlist</button>
+    </form>
+    <p class="footer-text">Safe & Secure Booking, Anywhere in the World. We prioritize your safety with verified providers and easy cancellation policies.</p>
+    <div class="social-icons">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" title="Instagram" />
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="YouTube" title="YouTube" />
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="Twitter" title="Twitter" />
+    </div>
+  </div>
+</body>
+</html>
